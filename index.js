@@ -221,9 +221,9 @@ function askNextQuestion(uri, session, callback) {
     var sessionAttributes = session.attributes;
 
     var reqoptions = {
-        url: 'http://y.20q.net' + uri,
+        url: process.env.TWENTY_QUESTIONS_DATA_URL + uri,
         headers: {
-            'Referer': 'http://y.20q.net/gsq-en'
+            'Referer': process.env.TWENTY_QUESTIONS_DATA_URL + '/gsq-en'
         }
     };
 
@@ -232,7 +232,7 @@ function askNextQuestion(uri, session, callback) {
             console.log("Error requesting " + uri);
             console.log(err);
             return callback(sessionAttributes,
-                            buildSpeechletResponse("App Error", "There was an error accessing 20q.net. Try repeating your answer.", "There was an error accessing 20q.net. Try repeating your answer.", false));
+                            buildSpeechletResponse("App Error", "There was an error accessing the twenty questions website. Try repeating your answer.", "There was an error accessing the twenty questions. Try repeating your answer.", false));
         }
 
         var $;
@@ -288,9 +288,9 @@ function startGame(callback) {
     var sessionAttributes = {};
 
     var reqoptions = {
-        url: 'http://y.20q.net/gsq-en',
+        url: process.env.TWENTY_QUESTIONS_DATA_URL + '/gsq-en',
         headers: {
-            'Referer': 'http://www.20q.net/play.html'
+            'Referer': process.env.TWENTY_QUESTIONS_HOME_URL + '/play.html'
         }
     };
     
@@ -299,9 +299,9 @@ function startGame(callback) {
         var newgameuri = $('form').first().attr('action');
 
         var reqoptions = {
-            url: 'http://y.20q.net' + newgameuri,
+            url: process.env.TWENTY_QUESTIONS_DATA_URL + newgameuri,
             headers: {
-                'Referer': 'http://y.20q.net/gsq-en'
+                'Referer': process.env.TWENTY_QUESTIONS_DATA_URL + '/gsq-en'
             },
             form: {
                 'age': '',
