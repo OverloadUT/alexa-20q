@@ -1,0 +1,34 @@
+AnimalIntent animal
+VegetableIntent vegetable
+MineralIntent mineral
+ConceptIntent concept
+OtherIntent other
+YesIntent yes
+NoIntent no
+UnknownIntent unknown
+UnknownIntent I'm not sure
+UnknownIntent I don't know
+UnknownIntent unsure
+IrrelevantIntent not relevant
+IrrelevantIntent irrelevant
+IrrelevantIntent does not apply
+SometimesIntent sometimes
+MaybeIntent maybe
+ProbablyIntent probably
+DoubtfulIntent doubtful
+DoubtfulIntent probably not
+DoubtfulIntent not really
+UsuallyIntent usually
+UsuallyIntent mostly
+DependsIntent it depends
+RarelyIntent rarely
+PartlyIntent partly
+PartlyIntent somewhat
+RightIntent right
+RightIntent correct
+RightIntent you got it
+WrongIntent wrong
+WrongIntent incorrect
+WrongIntent that's wrong
+CloseIntent close
+CloseIntent that was close
