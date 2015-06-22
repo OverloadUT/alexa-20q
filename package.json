@@ -1,0 +1,21 @@
+{
+  "name": "alexa-20q",
+  "version": "0.0.1",
+  "description": "Play 20 Questions with Alexa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Greg \"OverloadUT\" Laabs <OverloadUT@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-aws-lambda": "^0.4.0",
+    "npm": "^2.11.3"
+  },
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "dotenv": "^1.2.0",
+    "request": "^2.58.0"
+  }
+}

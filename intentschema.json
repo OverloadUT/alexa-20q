@@ -1,0 +1,84 @@
+{
+    "intents": [
+        {
+            "intent": "AnimalIntent",
+            "slots": []
+        },
+        {
+            "intent": "VegetableIntent",
+            "slots": []
+        },
+        {
+            "intent": "MineralIntent",
+            "slots": []
+        },
+        {
+            "intent": "ConceptIntent",
+            "slots": []
+        },
+        {
+            "intent": "OtherIntent",
+            "slots": []
+        },
+        {
+            "intent": "YesIntent",
+            "slots": []
+        },
+        {
+            "intent": "NoIntent",
+            "slots": []
+        },
+        {
+            "intent": "UnknownIntent",
+            "slots": []
+        },
+        {
+            "intent": "IrrelevantIntent",
+            "slots": []
+        },
+        {
+            "intent": "SometimesIntent",
+            "slots": []
+        },
+        {
+            "intent": "MaybeIntent",
+            "slots": []
+        },
+        {
+            "intent": "ProbablyIntent",
+            "slots": []
+        },
+        {
+            "intent": "DoubtfulIntent",
+            "slots": []
+        },
+        {
+            "intent": "UsuallyIntent",
+            "slots": []
+        },
+        {
+            "intent": "DependsIntent",
+            "slots": []
+        },
+        {
+            "intent": "RarelyIntent",
+            "slots": []
+        },
+        {
+            "intent": "PartlyIntent",
+            "slots": []
+        },
+        {
+            "intent": "RightIntent",
+            "slots": []
+        },
+        {
+            "intent": "WrongIntent",
+            "slots": []
+        },
+        {
+            "intent": "CloseIntent",
+            "slots": []
+        }
+    ]
+}
