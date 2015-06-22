@@ -2,3 +2,4 @@ event.json
 Gruntfile.js
 dist
 *.bat
+docs
